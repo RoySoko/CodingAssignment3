@@ -1,0 +1,129 @@
+body {
+  background-color: #ccff66;
+  font-family: Georgia, serif;
+  color: #3a1f1f;
+  margin: 2em auto;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #3a1f1f;
+  display: inline-block;
+  padding-bottom: 0.25em;
+}
+
+h3.rate {
+  border-bottom: none;
+  display: block;
+  padding: 0;
+  margin-top: 2em;
+}
+
+p {
+  margin: 0.75em 0;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  margin: 0.75em 0 0.75em 1.5em;
+}
+
+li {
+  margin-bottom: 0.25em;
+}
+
+figure {
+  float: left;
+  margin: 0 1em 1em 0;   
+  text-align: left;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 0.5em;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #3a1f1f;
+  margin: 2em 0;
+}
+
+form {
+  margin: 1em 0;
+}
+
+fieldset {
+  border: 1px solid #3a1f1f;
+  padding: 0.75em 1em;
+  margin: 0.5em 0;
+}
+
+legend {
+  padding: 0 0.5em;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  border: 1px solid #3a1f1f;
+  padding: 0.25em 0.5em;
+  margin: 0 0.25em;
+  border-radius: 4px;
+  width: 5em;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: 2px solid #1a0dab;
+}
+
+input[type="radio"] {
+  margin-right: 0.25em;
+  accent-color: #3a1f1f;
+}
+
+label {
+  margin-right: 1em;
+  cursor: pointer;
+}
+.footer-note {
+  text-align: right;
+  font-style: italic;
+  margin-top: 2em;
+}
